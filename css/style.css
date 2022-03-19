@@ -1,0 +1,68 @@
+.container {
+    background-color: rgba(0.2, 0.2, 0.2, 0.2);
+    font-size: 20px;
+    margin:  0px 300px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    color: #B22222;
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+
+}
+
+#submit {
+    text-align: center;
+    height: 50px;
+    width: auto;
+    border: solid;
+    border-color: green;
+    border-radius: 10px;
+    background-image: url("submit.png");
+    background-size: 100%;
+
+}
+
+
+select,
+input[type=radio] {
+    cursor: pointer;
+}
+
+
+input,
+select,
+option,
+textarea {
+
+    font-style: bold;
+}
+
+
+
+input {
+    height: 20px;
+    border-radius: 10px;
+}
+
+select {
+    height: 25px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+
+  .q{
+      color: blue;
+      font-style: oblique;
+    margin: 15px auto 1px auto;
+  }
